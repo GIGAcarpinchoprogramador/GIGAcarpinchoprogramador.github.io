@@ -1,55 +1,71 @@
+
+
 body {
+    padding: 0;
     margin: 0px;
     box-sizing: border-box;
+    
 }
 nav{
+   
     background-image: url(vault-boy-e7iy1gk1m4ss5a4z\ fondo\ coso.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     
+   min-width: px;
 }
 li:hover{
+   
     background-image: url(FOWW_Vault_Tec_logo.png);
     background-size: cover;
 }
 li {
-    
+
     margin: 5px;
     padding: 20px;
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
-    display: flex;
+   
     background-color: rgba(0, 0, 0, 0.581);
-    
+   
 }
 
 ul {
+
+ 
     display: flex;
-    font-size: 50px;
-    justify-content: end;
+    font-size: 30px;
+    justify-content: start;
+    width: 100vw;
+
   
 }
 img {
+ 
     width: 200px;
 }
 a {
+  color: aliceblue;
     text-decoration: none;
 }
 h1 {
+  
     text-align: center;
     color: rgb(0, 0, 0);
 }
 
 body {
+  
     background-image: url(FOWW_Vault_Tec_logo.png) ;
     background-size: cover;
     background-repeat: no-repeat;
 }
-    
+ 
   #fkt {
+   
         position: absolute;
         top: 0;
         right: 0vh;
@@ -58,12 +74,24 @@ margin: 5px;
 height: 50px;
     }
     .explicacion {
+        padding: 0 30px;
         color: rgb(0, 0, 0);
-font-size: 28px;
-margin: 5px;
-width: 1400px;
-
+        font-size: 28px;
+        margin: 5px;
+        max-width: 1400px;
+        line-height:1.5;
 
     }
 
    
+    @media only screen and (max-width: 600px) {
+        ul{
+            flex-direction: column;
+        }
+        
+     ul> a {
+       font-size: px; 
+      }
+          
+      }
+      
