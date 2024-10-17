@@ -94,4 +94,15 @@ height: 50px;
       }
           
       }
-      
+      footer {
+        height: 200px;
+        flex-direction: column;
+       grid-template-columns: 1fr 1fr;
+       display: grid;
+        background-color: gold;
+       font-size: 18px;
+       
+      }
+      .lm {
+        color: black;
+      }
